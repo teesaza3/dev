@@ -1,0 +1,64 @@
+.container-section {
+	width: 100%;
+}
+.head-section {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 1em;
+    font-size: 1.5em;
+}
+.picture-align {
+	text-align: center;
+}
+.picture-me {
+	align-content: center;
+    width: 40%;
+	margin:  0;
+}
+.circle{ /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
+    height: 50%;  /* ความสูงปรับให้เป็นออโต้ */
+    width: 40%;  /* ความสูงปรับให้เป็นออโต้ */
+    border: 3px solid #fff; /* เส้นขอบขนาด 3px solid: เส้น #fff:โค้ดสีขาว */
+    border-radius: 50%; /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* เงาของรูป */
+}
+.bold-text {
+	font-weight: 400;
+}
+.nav-bar {
+	background-color: rgba(199, 147, 35, 0.9);
+	position: center;
+	top: 0;
+	width: 100%;
+    z-index: 1200;
+}
+.div-font-contents {
+	letter-spacing: 1.2px;
+	word-spacing: 1px;
+	line-height: 1.3em;
+	font-weight: 300;
+}
+.content-aboutme {
+	text-align: left;
+	padding: 0 40%;
+	font-weight: 300;
+}
+.topic-content {
+	text-align: center;
+}
+.line-end-content {
+	width: 450px;
+	border: solid 0.1em #019788;
+	margin-top: -5px; 
+}
+.grid-container-skills {
+	width: 75%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 49% 49%;
+	grid-column-gap: 2%;
+
+}
+.grid-2-skill, .grid-1-skill {
+	width: 100%;
+}

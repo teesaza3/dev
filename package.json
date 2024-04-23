@@ -5,7 +5,7 @@
   "homepage": "https://teesaza3.github.io/dev/",
   "dependencies": {
     "antd": "^3.19.2",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
